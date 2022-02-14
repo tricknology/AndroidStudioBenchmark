@@ -43,7 +43,7 @@ _Browse like no one’s watching. The new Firefox Focus automatically blocks a w
 # 1. Install Android Studio: 
 https://developer.android.com/studio 
 
-I was running test on `Android Studio 4.1.1`.
+I was running test on `Android Studio 4.1.1`, but you can run tests on the latest version (just write the version you have).
 
 I was using default settings while installation almost for all my tests.
 
@@ -65,7 +65,9 @@ Close `Android Studio` after this.
 # 3. Install JDK 8: 
 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 
-I have installed: `Java SE Development Kit 8u271`
+I have installed: `Java SE Development Kit 8u271` (You can also use JDK 11 or 17), 
+
+JDK 17 has support for Macbook with M1/MPro chips. It'w better use this if you have such machine, it will give faster results: (https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 
 # 4. Set "JAVA_HOME" path in your Environment variables (System variables):
 For me it was: `JAVA_HOME: C:\Program Files\Java\jdk1.8.0_271`
@@ -127,7 +129,7 @@ Letter theme: `AndroidStudioPerformanceTest`
 
 `OS`: Windows/Linux/MacOS
 
-`Android Studio version`: 4.1.1
+`Android Studio version`: 4.1.1/Arctic Fox 2020.3.1 Patch 4/Bumblebee/etc.
 
 `CPU model`: Intel Core i5-7200U 2.5GHz
 
@@ -135,7 +137,7 @@ Letter theme: `AndroidStudioPerformanceTest`
 
 `Hard disk`: SSD M.2 256Gb KINGSTON SUV400S37240G (or HDD disk model)
 
-`Test results`: 8:28min, 5:43, 5:37. And screenshots for them.
+`Test results`: 8:28min, 5:43, 5:37. And screenshots for them!! (Screenshots are needed for me to be 100% sure that results are not fake)
 
 `Additional comments`: you can write here whenever you want: The CPU was running all time 100%, laptop was extremely hot 
 near the screen, ram was used for 80% etc, fans where running very hard etc..
